@@ -1,0 +1,26 @@
+{
+  "name": "grue-theme",
+  "displayName": "Grue Theme",
+  "description": "A green/blue theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaCraig/Grue"
+  },
+  "license": "Apache-2.0",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Grue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Grue-color-theme.json"
+      }
+    ]
+  }
+}
